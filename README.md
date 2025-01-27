@@ -1,5 +1,27 @@
 # Comparative Analysis of Personalized Recommender Systems for Master's Programs: Exploring Different Approaches
 
-### Approach: [Developing and Evaluating a University Recommender System](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8848746/#:~:text=Among%20other%20approaches%2C%20recommender%20systems,before%20they%20enter%20higher%20education)
+This research aims to explore solutions for exploring Master's program recommendations.
 
-Case Study:
+
+## Case materials
+
+The repository is structured as follows:
+
+
+
+    .
+    ├── artifacts                           # Main data folder of research
+    |   ├── data                                # raw data folder
+    |   |   ├── survey_data 
+    |   |   ├── university_data
+    |   |   ├── user_preference_data
+    |   |   └── *_university_user_ratings_*.csv
+    |   ├── synthetic-data-survey-evaluation
+    |   └── requirements.txt
+    ├── scripts                             # main code folder of research
+    |   ├── recommender-systems-techniques
+    |   ├── src
+    |   └── main.py
+    ├── slides                              # slides for Bachelor colloqium
+    ├── thesis                              # thesis paper
+    └── README.md
